@@ -1,0 +1,94 @@
+{
+  "project_name": "03, SAISH BHUJBAL — Cinematic Football Portfolio",
+  "archetype": "THE PERFORMANCE PRO x CINEMATIC STADIUM",
+  "theme": "Dark Night Match under Floodlights",
+  "target_audience": "Tech recruiters, engineering leaders, creative directors, sports-tech founders",
+  "emotional_tone": "Cinematic, authoritative, energetic, tactical, high-performance",
+  "design_principles": [
+    "Fusion over Imitation: Synthesize UEFA Champions League broadcast graphics, Swiss typography, and high-performance WebGL interactive canvas",
+    "Emotion First: Feel the surge of tunnel entry, floodlights igniting, and stadium crowd roar through visual rhythm",
+    "Content is King: Present software engineering achievements as match stats, trophy cabinets, and tactical formations",
+    "Zoom In: Intimate macro close-ups of pitch textures, glowing jersey squad number 03, and high-contrast tactical heatmaps",
+    "Negative Space: Deep stadium black voids (#06090E) with precise lime pitch lines to spotlight high-value metrics"
+  ],
+  "typography": {
+    "heading_font": "Barlow Condensed, Bebas Neue, sans-serif",
+    "body_font": "Inter, DM Sans, sans-serif",
+    "mono_font": "JetBrains Mono, IBM Plex Mono, monospace",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-none",
+      "h2_section": "text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight",
+      "h3_card": "text-xl sm:text-2xl font-bold tracking-tight",
+      "body": "text-base text-slate-300 leading-relaxed",
+      "caption_mono": "font-mono text-xs uppercase tracking-[0.2em] text-emerald-400"
+    },
+    "forbidden_fonts": ["Inter for headings", "Space Grotesk"]
+  },
+  "colors": {
+    "background_base": "#06090E",
+    "surface_dark": "#0B111A",
+    "surface_card": "#111A28",
+    "pitch_green_accent": "#10B981",
+    "volt_glow": "#22C55E",
+    "floodlight_white": "#F8FAFC",
+    "tactical_line": "rgba(255, 255, 255, 0.12)",
+    "stadium_amber": "#F59E0B",
+    "grayscale": {
+      "slate_900": "#0F172A",
+      "slate_800": "#1E293B",
+      "slate_400": "#94A3B8",
+      "slate_200": "#E2E8F0"
+    }
+  },
+  "layout_strategies": {
+    "spacing_scale": "Use 2x-3x generous spacing. Containers with borders MUST have internal padding p-6 or p-8",
+    "hero_section": "Asymmetrical split with giant squad number '03' watermark in backdrop (text-[18vw]), stadium spotlight gradient overlay, live match timer widget, player archetype tags",
+    "bento_grid": "Mode B High Density Grid: grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-6 for match statistics, career progression, and radar charts",
+    "tactical_formation_section": "Interactive 4-3-3 pitch layout mapping technical skills (React, Node, Python, Three.js) into player positions with hover heatmaps"
+  },
+  "components_and_surfaces": {
+    "header_nav": {
+      "style": "Glassmorphism floating ribbon",
+      "classes": "fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-6xl rounded-full bg-slate-950/70 backdrop-blur-xl border border-white/10 px-6 py-3 shadow-[0_8px_32px_rgba(0,0,0,0.5)]",
+      "elements": ["Brand Logo (03, SAISH)", "Nav Links (Overview, Fixtures, Tactics, Stats, Contact)", "CTA ('Sign Playmaker')"]
+    },
+    "cards": {
+      "style": "Stadium Box VIP Card",
+      "classes": "bg-slate-900/80 border border-white/10 rounded-xl p-6 hover:border-emerald-500/50 hover:shadow-[0_0_25px_rgba(16,185,129,0.15)] transition-all duration-300"
+    },
+    "buttons": {
+      "primary": "bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold uppercase tracking-wider px-6 py-3 rounded-md transition-all duration-200 hover:shadow-[0_0_20px_rgba(34,197,94,0.4)] active:scale-95",
+      "secondary": "bg-slate-800/80 hover:bg-slate-700/80 text-white border border-white/10 font-semibold uppercase tracking-wider px-6 py-3 rounded-md transition-all duration-200 hover:border-white/30"
+    }
+  },
+  "motion_and_interactions": {
+    "smooth_scroll": "Lenis smooth scroll enabled for cinematic fluidity",
+    "framer_motion": "Staggered entrance for stat counters, pitch line draw-in animations on scroll, 3D tilt effect on player card",
+    "micro_interactions": "Interactive goal mini-game in CTA section, tactical draw lines on hover over project cards, interactive rating radar"
+  },
+  "image_urls": {
+    "stadium_night_pitch": "https://images.unsplash.com/photo-1517747614396-d21a78b850e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxzdGFkaXVtJTIwbGlnaHRzJTIwc29jY2VyJTIwcGl0Y2glMjBmbG9vZGxpZ2h0JTIwZm9vdGJhbGwlMjBzdGFkaXVtJTIwbmlnaHR8ZW58MHx8fHwxNzkzNzI0NDEzfDA&ixlib=rb-4.1.0&q=85",
+    "stadium_spotlight_aerial": "https://images.pexels.com/photos/28827841/pexels-photo-28827841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "soccer_pitch_line_detail": "https://images.unsplash.com/photo-1459865264687-595d652de67e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxzb2NjZXIlMjBiYWxsJTIwcGl0Y2glMjB0dXJmJTIwYWN0aW9uJTIwZGV0YWlsfGVufDB8fHx8MTc5MzcyNDQxOXww&ixlib=rb-4.1.0&q=85",
+    "soccer_match_field": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxzb2NjZXIlMjBiYWxsJTIwcGl0Y2glMjB0dXJmJTIwYWN0aW9uJTIwZGV0YWlsfGVufDB8fHx8MTc5MzcyNDQxOXww&ixlib=rb-4.1.0&q=85"
+  },
+  "accessibility_and_testing": {
+    "wcag_compliance": "Minimum 4.5:1 text contrast for all body text over dark background",
+    "data_testid_rule": "ALL interactive components MUST include semantic kebab-case data-testid attributes",
+    "sample_test_ids": [
+      "data-testid='header-brand-logo'",
+      "data-testid='nav-link-fixtures'",
+      "data-testid='player-card-stat-architecture'",
+      "data-testid='tactical-pitch-player-react'",
+      "data-testid='contact-form-submit-button'"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a cinematic, full-screen football-themed portfolio for Saish Bhujbal (Squad #03).",
+    "Ensure dark mode by default with stadium spotlights, neon green turf accents, and pitch line motifs.",
+    "Include sections: Hero match entrance, EA Sports style FIFA rating player card, Tactical formation skill tree, Featured projects as highlight reels, Pitchside testimonials, and Transfer window inquiry form.",
+    "Add data-testid attributes to all buttons, links, cards, and inputs.",
+    "Do NOT use generic Inter font for headings; use uppercase Barlow Condensed or Bebas Neue."
+  ]
+},
+overwrite:true,path:
